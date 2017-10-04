@@ -1,0 +1,61 @@
+platform :ios, '9.0'
+use_frameworks!
+
+
+
+target 'DreamAfrica' do 
+    
+pod 'CleverSDK',
+git: 'https://github.com/thepearldream/ios-sdk.git'
+
+source 'https://github.com/danylokostyshyn/private-podspecs.git'
+source 'https://github.com/CocoaPods/Specs'
+
+pod 'private-boost'
+pod 'private-libtorrent'
+pod 'private-openssl'
+
+
+pod 'SQLite.swift'
+
+#pod 'SQLite.swift',
+#  git: 'https://github.com/stephencelis/SQLite.swift.git',
+#  branch: 'cocoapods-xcode-7-3'
+
+
+pod 'SwiftyJSON', '3.0.0'
+
+#pod 'SwiftyJSON',
+#  git: 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+
+
+pod 'FloatRatingView', '~> 2.0.0'
+
+#pod 'FloatRatingView',
+#  git: 'https://github.com/strekfus/FloatRatingView.git'
+
+pod 'Reachability',
+  git: 'https://github.com/tonymillion/Reachability.git'
+
+pod 'XCDYouTubeKit', '~> 2.3.2'
+
+pod 'MobileVLCKit'
+
+pod 'JGProgressHUD'
+
+pod 'FacebookCore'
+
+pod 'FacebookLogin'
+
+pod 'FacebookShare'
+
+
+
+pod 'Braintree'
+pod 'BraintreeDropIn'
+pod 'Braintree/PayPal'
+#pod 'Braintree/Venmo'
+pod 'Braintree/Apple-Pay'
+pod 'Braintree/3D-Secure'
+
+end
